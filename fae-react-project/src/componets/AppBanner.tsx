@@ -1,3 +1,5 @@
+import AppBannerSignIn from "./AppBannerSignIn";
+
 function AppBanner() {
   return (
     <div className="app-banner flex-row">
@@ -5,6 +7,7 @@ function AppBanner() {
         <h1>Fae</h1>
         <img src="../../fae-logo.svg" alt="fae-logo" />
       </div>
+      <AppBannerSignIn />
     </div>
   );
 }

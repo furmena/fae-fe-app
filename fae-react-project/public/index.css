@@ -1,14 +1,18 @@
+body {
+    background-color: #1E1E2E;
+}
+
 .app-banner {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     margin-top: 0px;
-    background-color: #313244;
+    background-color: #A0ffb4;
 }
 
 .app-banner h1 {
-    color: #CDD6F4;
+    color: #313244;
     font-family: 'Noto Serif'
 }
 
@@ -17,16 +21,38 @@
     height: 48px;
     position: relative;
     top: 50%;
-    margin-top: -25px;
+    margin-top: -27px;
     border-style: solid;
-    border-width: 2px;
+    border-width: 6px;
     border-radius: 50%;
-    border-color: #CDD6F4;
+    border-color: #313244;
+}
+
+.app-banner button {
+    background-color: #313244; 
+    border-color: #313244;
+    width: 5em;
+    height: 2em;
+    position: absolute;
+    top: 50%;
+    margin-top: -1em;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    font-size: 16px;    
+    font-family: 'Noto Serif';
 }
 
 .app-banner-left {
     width: 15%;
     justify-content: space-around;
+    margin-right: auto;
+}
+
+.app-banner-right {
+    width: 15%;
+    justify-content: space-around;
+    margin-left: auto;
 }
 
 .flex-row {
