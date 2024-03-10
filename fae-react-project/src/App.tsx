@@ -1,7 +1,8 @@
 import ListGroup from './componets/ListGroup'
+import AppBanner from './componets/AppBanner';
 
 function App() {
-  return <div><ListGroup /></div>
+  return <div><AppBanner /></div>
 }
 
 export default App;

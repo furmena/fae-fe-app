@@ -1,0 +1,37 @@
+.app-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0px;
+    background-color: #313244;
+}
+
+.app-banner h1 {
+    color: #CDD6F4;
+    font-family: 'Noto Serif'
+}
+
+.app-banner img {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: 50%;
+    margin-top: -25px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    border-color: #CDD6F4;
+}
+
+.app-banner-left {
+    width: 15%;
+    justify-content: space-around;
+}
+
+.flex-row {
+    display: flex;
+}
+
+
+
