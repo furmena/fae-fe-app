@@ -1,8 +1,13 @@
-import ListGroup from './componets/ListGroup'
-import AppBanner from './componets/AppBanner';
+import AppBanner from "./componets/AppBanner";
+import SearchBanner from "./componets/SearchBanner";
 
 function App() {
-  return <div><AppBanner /></div>
+  return (
+    <div>
+      <AppBanner />
+      <SearchBanner />
+    </div>
+  );
 }
 
 export default App;

@@ -1,5 +1,5 @@
 body {
-    background-color: #1E1E2E;
+    background-color: #0A0A0A;
 }
 
 .app-banner {
@@ -7,12 +7,13 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    height: 12.5vh;
     margin-top: 0px;
     background-color: #A0ffb4;
 }
 
 .app-banner h1 {
-    color: #313244;
+    color: #0A0A0A;
     font-family: 'Noto Serif'
 }
 
@@ -21,16 +22,16 @@ body {
     height: 48px;
     position: relative;
     top: 50%;
-    margin-top: -27px;
+    margin-top: -30px;
     border-style: solid;
     border-width: 6px;
     border-radius: 50%;
-    border-color: #313244;
+    border-color: #0a0a0a;
 }
 
 .app-banner button {
-    background-color: #313244; 
-    border-color: #313244;
+    background-color: #0A0A0A; 
+    border-color: #0a0a0a;
     width: 5em;
     height: 2em;
     position: absolute;
@@ -53,6 +54,15 @@ body {
     width: 15%;
     justify-content: space-around;
     margin-left: auto;
+}
+
+.search-banner {
+    position: absolute;
+    top: 12.5vh;
+    left: 0;
+    right: 0;
+    margin-top: 0px;
+    background-color: 050505;
 }
 
 .flex-row {
